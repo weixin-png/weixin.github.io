@@ -86,7 +86,15 @@ module.exports = {
     ],
     //侧边栏
     sidebar: {
-      "/docs/theme-reco/": ["", "theme", "plugin", "api", "test"],
+      // "/docs/theme-reco/": ["", "theme", "plugin", "api", "test"],
+/*       "/docs/vue/": [
+        {
+          title: "Vue笔记",
+          collapsable: false,
+          children: ["", "vue2", "vue3"],
+        },
+      ], */
+      "/docs/vue/": ["", "vue2", "vue3"],
     },
     type: "blog",
     //博客配置
@@ -102,7 +110,7 @@ module.exports = {
     },
     //友情链接
     friendLink: [
-/*       {
+      /*       {
         title: "午后南杂",
         desc: "Enjoy when you can, and endure when you must.",
         email: "1156743527@qq.com",
@@ -126,7 +134,7 @@ module.exports = {
     lastUpdated: "Last Updated",
     author: "Xin",
     authorAvatar: "/avatar.png",
-    record: "xxxx",
+    record: "Blog",
     startYear: "2022",
   },
   markdown: {

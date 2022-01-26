@@ -3,20 +3,20 @@ home: true
 heroText: Xin's Blog
 tagline: 'The secret of success is constancy of purpose.'
 # heroImage: /hero.png
-heroImageStyle: {
-  maxWidth: '600px',
-  width: '100%',
-  display: block,
-  margin: '9rem auto 2rem',
-  background: '#fff',
-  borderRadius: '1rem',
-}
-# 背景图片样式
-# bgImageStyle: {
-#   # width: '100vw',
-#   height: '100vh',
+# heroImageStyle: {
+#   maxWidth: '600px',
+#   width: '100%',
+#   display: block,
+#   margin: '9rem auto 2rem',
+#   background: '#fff',
+#   borderRadius: '1rem',
 # }
-# bgImage: '/bgImage/bg7.png'
+# 背景图片样式
+bgImageStyle: {
+  # width: '100vw',
+  height: '93vh',
+}
+bgImage: '/bgImage/55.jpg'
 isShowTitleInHome: false
 actionText: Guide
 actionLink: /views/other/guide

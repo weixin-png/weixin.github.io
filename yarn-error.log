@@ -1,0 +1,56 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\xin\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add vuepress-plugin-meting -D
+
+PATH: 
+  C:\Program Files\WindowsApps\Microsoft.PowerShell_7.2.1.0_x64__8wekyb3d8bbwe;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\xin\AppData\Local\Programs\Python\Python310;C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\xin\AppData\Local\Microsoft\WindowsApps;C:\Users\xin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\xin\AppData\Roaming\npm;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\.jdks\openjdk-17.0.1\bin;
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, copyfile 'C:\Users\xin\AppData\Local\Yarn\Cache\v6\npm-@vuepress-reco-vuepress-plugin-back-to-top-1.6.0-16cf1a6844f156c11d5135c646270c6734263eb6-integrity\node_modules\@vuepress-reco\vuepress-plugin-back-to-top\bin\enhanceAppFile.js' -> 'C:\Users\xin\Desktop\Blog\node_modules\@vuepress-reco\vuepress-plugin-back-to-top\bin\enhanceAppFile.js'
+
+npm manifest: 
+  {
+    "name": "blog",
+    "version": "1.0.0",
+    "author": "xin",
+    "license": "ISC",
+    "scripts": {
+      "dev": "vuepress dev .  --host \"localhost\"",
+      "build": "vuepress build ."
+    },
+    "devDependencies": {
+      "vuepress": "1.8.2",
+      "vuepress-plugin-cursor-effects": "^1.0.2",
+      "vuepress-plugin-dynamic-title": "^1.0.0",
+      "vuepress-plugin-sakura": "^1.1.0",
+      "vuepress-theme-reco": "1.6.10"
+    },
+    "description": "--- home: true heroText: Xin's Blog tagline: 'The secret of success is constancy of purpose.' # heroImage: /hero.png heroImageStyle: {   maxWidth: '600px',   width: '100%',   display: block,   margin: '9rem auto 2rem',   background: '#fff',   borderRadius: '1rem', } # 背景图片样式 # bgImageStyle: { #   # width: '100vw', #   height: '100vh', # } # bgImage: '/bgImage/bg7.png' isShowTitleInHome: false actionText: Guide actionLink: /views/other/guide features: - title: Yesterday   details: 开发一款看着开心、写着顺手的 vuepress 博客主题 - title: Today   details: 希望帮助更多的人花更多的时间在内容创作上，而不是博客搭建上 - title: Tomorrow   details: 希望更多的爱好者能够参与进来，帮助这个主题更好的成长 ---",
+    "main": "index.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/weixin-png/Blog.git"
+    },
+    "bugs": {
+      "url": "https://github.com/weixin-png/Blog/issues"
+    },
+    "homepage": "https://github.com/weixin-png/Blog#readme",
+    "directories": {
+      "doc": "docs"
+    },
+    "keywords": []
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

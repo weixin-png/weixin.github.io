@@ -87,7 +87,7 @@ module.exports = {
     //侧边栏
     sidebar: {
       // "/docs/theme-reco/": ["", "theme", "plugin", "api", "test"],
-/*       "/docs/vue/": [
+      /*       "/docs/vue/": [
         {
           title: "Vue笔记",
           collapsable: false,
@@ -146,7 +146,7 @@ module.exports = {
     [
       "sakura",
       {
-        num: 30, // 默认数量
+        num: 40, // 默认数量
         show: true,
         zIndex: 2,
         img: {
@@ -158,5 +158,25 @@ module.exports = {
     "dynamic-title",
 
     "cursor-effects",
+    [
+      //播放器
+      "meting",
+      {
+        meting: {
+          server: "netease", // netease:网易云，tencent:qq音乐，xiami:虾米音乐
+          type: "playlist",
+          mid: "3778678", //https://music.163.com/playlist?id=3778678&userid=1975896037
+        },
+        aplayer: {
+          autoplay: true,
+          mini: true,
+          theme: "#282c34",
+        },
+        mobile: {
+          cover: false,
+          lrc: false,
+        },
+      },
+    ],
   ],
 };

@@ -12,11 +12,11 @@ tagline: 'The secret of success is constancy of purpose.'
 #   borderRadius: '1rem',
 # }
 # 背景图片样式
-bgImageStyle: {
-  # width: '100vw',
-  height: '93vh',
-}
-bgImage: '/bgImage/55.jpg'
+# bgImageStyle: {
+#   # width: '100vw',
+#   height: '93vh',
+# }
+# bgImage: '/bgImage/55.jpg'
 isShowTitleInHome: false
 actionText: Guide
 actionLink: /views/other/guide

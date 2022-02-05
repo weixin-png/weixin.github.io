@@ -4,7 +4,7 @@
   "author": "xin",
   "license": "ISC",
   "scripts": {
-    "dev": "vuepress dev .  --host \"localhost\"",
+    "dev": "vuepress dev . --open --host \"localhost\"",
     "build": "vuepress build ."
   },
   "devDependencies": {

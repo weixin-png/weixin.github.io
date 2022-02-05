@@ -1,7 +1,7 @@
 module.exports = {
   title: "Xin",
   description: "",
-  dest: "public",
+  dest: "assets",
   theme: "reco",
   head: [
     [

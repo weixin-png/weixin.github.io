@@ -142,7 +142,7 @@ module.exports = {
     [
       "sakura",
       {
-        num: 40, // 默认数量
+        num: 20, // 默认数量
         show: true,
         zIndex: 2,
         img: {

@@ -28,5 +28,8 @@
   "directories": {
     "doc": "docs"
   },
-  "keywords": []
+  "keywords": [],
+  "dependencies": {
+    "glob-parent": "^5.1.2"
+  }
 }

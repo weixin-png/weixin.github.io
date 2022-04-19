@@ -33,7 +33,7 @@ module.exports = {
         link: "/timeline/",
         icon: "reco-date",
       },
-      {
+/*       {
         //文档位置
         text: "Docs",
         icon: "reco-message",
@@ -67,7 +67,7 @@ module.exports = {
             link: "/docs/miniProgram/",
           },
         ],
-      },
+      }, */
       {
         text: "Contact",
         icon: "reco-message",
